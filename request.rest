@@ -1,0 +1,23 @@
+POST http://localhost:3003/client
+Content-Type: application/json
+
+{
+    "name": "Casas Deco"
+}
+
+###
+
+POST http://localhost:3003/payment/0d30b871-ffae-4558-92cd-fe910c07bbe6
+Content-Type: application/json
+
+{
+  "name": "Lucia",
+  "email": "luci@hotmail.com",
+  "cpf": "112.333.666-65",
+  "amount": 250,
+  "type": "CreditCard",
+  "holderName": "Pepa",
+  "cardNumber": 256984756,
+  "expirationDate": "02/10/2022",
+  "cardCvv":123
+}
